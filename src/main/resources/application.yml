@@ -1,0 +1,18 @@
+spring:
+  datasource:
+    name: testdb  #数据库名
+    url: jdbc:mysql://localhost:3306/testdb #url
+    username: user1  #用户名
+    password: user1password  #密码
+    driver-class-name: com.mysql.cj.jdbc.Driver  #数据库链接驱动
+    type: com.alibaba.druid.pool.DruidDataSource
+
+mybatis-plus:
+  global-config:
+    db-config:
+      id-type: auto
+      logic-delete-value: 0
+      logic-not-delete-value: 1
+  configuration:
+    map-underscore-to-camel-case: true
+    cache-enabled: false

@@ -10,3 +10,4 @@ public class BootmaxApplication {
         SpringApplication.run(BootmaxApplication.class,args);
     }
 }
+//asddasdd
